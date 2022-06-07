@@ -3,7 +3,7 @@
 }
 
 .navSection{
-  background-color:#5c5d62; margin-left:-10px; padding-left:10px; padding-right:20px
+  width:100%; background-color:#5c5d62; margin-left:-10px; padding-left:10px; padding-top:5px;  padding-bottom:5px; padding-right:10px; text-align:center;
 }
 
 .titleHeading{
@@ -43,7 +43,6 @@ p{
 }
 
 nav{
-  width:100%; margin-left:-10px; padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px; text-align:center;
   background:-ms-linear-gradient(top,#D8DEE7,#414a4c);
   background:-moz-linear-gradient(top,#D8DEE7,#414a4c4);
   background:-webkit-linear-gradient(top,#FAE6FA,#7851A9);
