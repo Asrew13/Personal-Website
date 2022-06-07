@@ -3,11 +3,11 @@
 }
 
 .navSection{
-  width:100%; background-color:#5c5d62; padding-left:auto; padding-right:auto; padding-top:5px; padding-bottom:5px; text-align:center
+  width:100%; background-color:#5c5d62; margin-left:-10px; padding-left:10px; padding-top:5px; padding-bottom:5px; padding-right:10px; text-align:center
 }
 
 .titleHeading{
-  text-align:left; font-size:18pt; color:rgba(220,20,60,0.7)
+  text-align:left; font-size:24pt; color:rgba(220,20,60,0.7)
 }
 
 .titleText{
@@ -15,7 +15,7 @@
 }
 
 .bodySection{
-  width:80%; min-height:500px; margin:auto; background-color:#191970; margin-top:-46px; color:#dddddd
+  width:80%; min-height:800px; margin:auto; background-color:#191970; margin-top:-46px; color:#dddddd; padding-bottom:20px
 }
 
 .welcomeHeading{
@@ -30,12 +30,16 @@
   width:80%; min-height:100px; background-color:#006400; margin-left:auto; margin-right:auto
 }
 
+.footerText{
+  position:relative; left:auto; top:20px
+}
+
 body{
-  background-image:url()
+	background-image:url()
 }
 
 header{
-  background-image:url(); width:100%; height:100px; margin-left:-10px; margin-top:-10px; padding-top:5px; padding-left:10px; padding-right:10px; background-color:rgba(64,64,64,0.15)
+  background-image:url(); width:100%; height:125px; margin-left:-10px; margin-top:-10px; padding-top:5px; padding-left:10px; padding-right:10px; background-color:rgba(64,64,64,0.15)
 }
 
 p{
@@ -43,6 +47,7 @@ p{
 }
 
 nav{
+  font-size:18pt;
   background:-ms-linear-gradient(top,#D8DEE7,#414a4c);
   background:-moz-linear-gradient(top,#D8DEE7,#414a4c4);
   background:-webkit-linear-gradient(top,#FAE6FA,#7851A9);
