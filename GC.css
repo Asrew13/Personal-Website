@@ -1,5 +1,6 @@
 .headerSection{
-  background-image:url()
+  width:100%; margin-left:-10px; padding-left:10px; padding-right:10px; 
+background-image: url(HeaderImage.jpg)
 }
 
 .navSection{
@@ -18,12 +19,16 @@
   width:80%; min-height:800px; margin:auto; background-color:#191970; margin-top:-46px; color:#dddddd; padding-bottom:20px
 }
 
-.welcomeHeading{
+.bodyHeading{
   width:100%; text-align:center; font-size:42pt
 }
 
-.welcomeText{
-  font-size:14pt
+.bodySubhead{
+  width:100%; text-align:center; font-size:28pt
+}
+
+.bodyText{
+  font-size:16pt
 }
 
 .footer{
@@ -31,11 +36,39 @@
 }
 
 .footerText{
-  position:relative; left:auto; top:20px
+  position:relative; left:auto; top:0px
+}
+
+.bottomList{
+  padding-bottom:10px	
+}
+
+.gamesList{
+  display:block; margin-left: auto; margin-right: auto; font-size:14pt
+}
+
+.listContent{
+  display:block; margin-left: auto; margin-right: auto; margin-top:10px; width:50%; font-size:17pt
+}
+
+.listSubcontent{
+  display:block; margin-left: auto; margin-right: auto; width:50%; font-size:13pt
+}
+
+.listSupercontent{
+  display:block; margin-left: auto; margin-right: auto; width:50%; font-size:11pt
+}
+
+.bodyImg{
+  display:block; margin-left: auto; margin-right: auto; width:50%; margin-top:-35px; margin-bottom:-15px
+}
+
+.footerImage{
+  display:block; margin-left: auto; margin-right: auto; width:25%; padding-top:10px; margin-bottom:-15px
 }
 
 body{
-  background-image:url()
+	background-image:url(BodyImage.jpg)
 }
 
 header{
@@ -56,6 +89,10 @@ nav{
   -webkit-text-fill-color:transparent
 }
 
-img{
-  display:block; margin-left: auto; margin-right: auto; width:50%; margin-top:-35px; margin-bottom:-15px
+ol{
+  text-align:center; list-style-type:disc
+}
+
+ol a{
+  text-decoration:none; color:#00aaff
 }
